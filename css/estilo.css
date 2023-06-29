@@ -1,0 +1,439 @@
+/*Generalidades*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #525252;
+    
+}
+/*encabezado*/
+.encabezado  {
+    background-color: #313131;
+    border: 1px solid rgb(30, 29, 29);
+    padding-bottom:20px;
+    
+}
+.encabezado h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: #079ef6;
+    font-size: 70px;
+    text-decoration: underline;
+}
+.Buscador {
+    position: absolute;
+    top: 70px;
+    right: 70px;
+}
+.Buscador input {
+    border-radius: .5rem;
+    width: 120px;
+    height: 26px;
+    margin-right: 3px;
+    background-color:#414141 ;
+} 
+.Buscador button {
+    border-radius: .5rem;
+    color: #079ef6;
+    background-color: #525252;
+    width: 50px;
+    height: 26;
+}
+/*barra de navegacion*/
+.encabezado nav {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+.encabezado nav a {
+    border-radius: .5rem;
+    color: white;
+    padding: 5px 15px;
+    border: 1px solid rgb(30, 29, 29);
+    margin-right: 15px;
+    margin-bottom: 1px;
+    background-color: #525252;
+    }
+.encabezado div {
+    position: absolute;
+    top: 70px;
+    right: 375px;
+}
+.encabezado div a {
+    border-radius: .5rem;
+    color: white;
+    padding: 5px 15px;
+    border: 1px solid rgb(30, 29, 29);
+    margin-right: 15px;
+    margin-bottom: 1px;
+    background-color: #525252;
+}
+/*Main index*/
+/*recuadro izq*/
+.Section1 {
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    border-top: 1px solid rgb(30, 29, 29);
+    border-left: 1px solid rgb(30, 29, 29);
+    border-bottom: 1px solid rgb(30, 29, 29);
+    background-color: #313131;
+    position: relative;
+    left: 542px;
+    margin-top: 40px;
+}
+.Section1 .Titulo {
+    color: #079ef6;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.Section1 .Texto {
+    font-weight: 1000;
+    font-size: 20px ;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.Section1 .Texto2 {
+    font-weight: 1000;
+    font-size: 20px ;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*recuadro der*/
+.Section2 {
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    border-top: 1px solid rgb(30, 29, 29);
+    border-right: 1px solid rgb(30, 29, 29);
+    border-bottom: 1px solid rgb(30, 29, 29);
+    background-image: url(../images/AutoInicio.jpg);
+    background-size: 905px;
+    background-position: 35% 80%;
+    position: absolute;
+    right: 541px;
+    margin-top: 40px;
+}
+ /*main contacto*/
+
+ .Section3{
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    border-top: 1px solid rgb(30, 29, 29);
+    border-left: 1px solid rgb(30, 29, 29);
+    border-bottom: 1px solid rgb(30, 29, 29);
+    background-color: #313131;
+    position: absolute;
+    left: 542px;
+    margin-top: 40px;
+ }
+ .Section3 p {
+    color: #079ef6;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 130px;
+ }
+
+ .Section3 ol {
+    color: white;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 20px;
+ }
+ .Section3 ol .Numero{
+    margin-bottom: 25px;
+    font-weight: 1000;
+    list-style-image: url(../images/IconoTelefono.png); 
+    
+}
+.Section3 ol .Correo{
+    margin-bottom: 25px;
+    font-weight: 1000;
+    list-style-image: url(../images/IconoSobre.png);    
+}
+.Section3 ol .Mapa{
+    margin-bottom: 25px;
+    font-weight: 1000;
+    list-style-image: url(../images/IconoMaps.png);    
+}
+.Section3 iframe{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.Section4{
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+    border-top: 1px solid rgb(30, 29, 29);
+    border-right: 1px solid rgb(30, 29, 29);
+    border-bottom: 1px solid rgb(30, 29, 29);
+    background-image: url(../images/AutoContacto2.jpg);
+    background-size: 500px;
+    background-position: 35% 80%;
+    position: absolute;
+    right: 541px;
+    margin-top: 40px;
+}
+/*Main general(deporortivos/motos/todoterreno)*/
+
+.MainDeportivos{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.Producto {
+    border: 1px solid rgb(30, 29, 29);
+    background-color: #313131;
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+}
+.Producto p {
+    color: white;
+    font-size: 25px;
+}
+.Producto .nombre {
+    margin-top: 2px;
+    margin-left: 20px;   
+}
+.Producto .precio{
+    text-align: right;
+    margin-right: 30px;
+}
+/*main deportivos*/
+ .img1 {
+    background-image: url(../images/deportivos/CoilVoltic150.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.img2 {
+    background-image: url(../images/deportivos/GrottiTurismoR500.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.img3 {
+    background-image: url(../images/deportivos/PegassiZentorno720.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.img4 {
+    background-image: url(../images/deportivos/TruffadeNero1.440.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.img5 {
+    background-image: url(../images/deportivos/OcelotXA-212.375.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.img6 {
+    background-image: url(../images/deportivos/ProgenT202.200.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+/*main motos*/
+.imgMoto1 {
+    background-image: url(../images/motos/pegassiRufiian10.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgMoto2 {
+    background-image: url(../images/motos/DinkaDouble-T12.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgMoto3 {
+    background-image: url(../images/motos/NagasakiCarbonRS40.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgMoto4 {
+    background-image: url(../images/motos/MaibatsuManchez67.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgMoto5 {
+    background-image: url(../images/motos/DinkaThrust75000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgMoto6 {
+    background-image: url(../images/motos/peggasivortex356.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+/*main todoterreno*/
+.imgTodo1 {
+    background-image: url(../images/todoterrenos/NagasakiOutlaw951.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgTodo2 {
+    background-image: url(../images/todoterrenos/VapidCaracara4x4-875.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgTodo3 {
+    background-image: url(../images/todoterrenos/AnnisHellion835000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgTodo4 {
+    background-image: url(../images/todoterrenos/VapidSandkingXL380.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgTodo5 {
+    background-image: url(../images/todoterrenos/CanisKamacho345.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.imgTodo6 {
+    background-image: url(../images/todoterrenos/BenefactorDubsta\ 6x6-249.000.jpg);
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 400px;
+    height:200px  ;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+/*Footer*/
+footer{
+    border: 1px solid rgb(30, 29, 29);
+    background-color: #313131;
+    width: 100%;
+    height: 125px;
+    position: absolute;
+    bottom: 0px;    
+}
+.redes{
+    position: absolute;
+    top: 5px;
+    right: 200px;
+    
+
+}
+.redes li {
+    color:black;
+    list-style:  none;
+}
+.redes a{
+    color: rgba(0, 0, 0, 0.571);
+    font-size: 13px;
+}
+.redes li a{
+    color: rgba(0, 0, 0, 0.571);
+    font-size: 12px;
+    
+}
+.medio{ 
+    top: 15px;
+    right: 750px;
+    text-align: center;
+}
+.medio a {
+    color: rgba(0, 0, 0, 0.571);
+    font-size: 12px;
+    margin-right: 15px;
+}
+.copy p {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    color: black;
+    font-size: 12px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
